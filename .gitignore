@@ -1,0 +1,21 @@
+# 数据、图片和模型权重不进 Git
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
